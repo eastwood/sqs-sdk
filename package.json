@@ -1,5 +1,6 @@
 {
   "name": "sqs-sdk",
+  "repository": "https: //github.com/eastwood/sqs-sdk",
   "version": "0.1.0",
   "description": "An SQS SDK useful for queueing messages on AWS SDK with large attachments",
   "main": "lib/index.js",
@@ -11,8 +12,9 @@
     "build": "babel lib -d dist/"
   },
   "dependencies": {
-    "aws-sdk": "^2.40.0",
-    "node-uuid": "^1.4.8"
+    "aws-sdk": "^2.41.0",
+    "node-uuid": "^1.4.8",
+    "uuid": "^3.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
