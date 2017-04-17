@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "aws-sdk": "^2.41.0",
-    "node-uuid": "^1.4.8",
     "uuid": "^3.0.1"
   },
   "devDependencies": {
